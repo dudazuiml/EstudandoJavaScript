@@ -14,6 +14,7 @@ function alertaCorDeFundo()
     texto.style.color = "#FFFF00";
 
     let info = document.querySelector(".info");
+    info.style.color = "#000FFF";
 }    
 
 function ResetarCor()
