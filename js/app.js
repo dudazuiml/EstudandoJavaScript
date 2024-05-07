@@ -21,3 +21,32 @@ function ResetarCor()
 {
     document.body.style.backgroundColor = "#FFF";
 }
+
+function alterarBox()
+{
+    let caixa = document.querySelector(".box");
+    if (caixa.classList.contains("box-escuro"))
+    {
+        caixa.classList.remove("box-escuro");
+    }
+    
+    else
+    {
+        caixa.classList.add("box-escuro");      
+    }
+    
+}
+
+function showHide()
+{
+    let sessao = document.querySelector(".visibilidade");
+    if (sessao.classList.contains("invisivel"))
+    {
+        sessao.classList.remove("invisivel");
+    }
+
+    else
+    {
+        sessao.classList.add("invisivel");
+    }
+}
